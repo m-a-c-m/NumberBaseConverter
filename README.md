@@ -1,6 +1,6 @@
-# 🔢 Conversor de Bases Numéricas Online Gratis
+# Number Base Converter — Free Online Tool
 
-**Free Number Base Converter.** Convert numbers between binary, octal, decimal and hexadecimal in real time. Edit any field and all others update simultaneously. Full BigInt support for arbitrarily large numbers. No sign-up, no ads, 100% client-side.
+**Number Base Converter.** Convert between binary, octal, decimal and hexadecimal in real time. No sign-up, no ads, 100% client-side.
 
 🌐 **Demo en vivo / Live demo:** [miguelacm.es/tools/number-base](https://miguelacm.es/tools/number-base)
 
@@ -13,14 +13,9 @@
 
 ## ✨ Features
 
-- **4 bases / 4 bases:** Binary (base 2), Octal (base 8), Decimal (base 10), Hexadecimal (base 16)
-- **Bidireccional / Bidirectional:** Edit any field — all others update simultaneously in real time
-- **Validación / Validation:** Each field only accepts valid characters for its base; invalid input is blocked
-- **BigInt:** Uses JavaScript BigInt for arbitrarily large numbers beyond Number.MAX_SAFE_INTEGER
-- **Copiar / Copy:** Copy button on each field for quick clipboard access
-- **Sin servidor / Zero server:** All conversions happen in the browser — nothing sent to a server
-- **Embebible / Embeddable:** Use it as an iframe on any website
-- **Open source:** MIT license, use it freely
+- **🔢 Four bases:** Binary, octal, decimal and hex updating simultaneously.
+- **⚡ Real time:** Type in any field and the rest follow instantly.
+- **🔒 100% private:** Conversion runs locally in your browser.
 
 ---
 
@@ -46,13 +41,11 @@ NEXT_PUBLIC_EMBED_URL=https://miguelacm.es/embed/number-base
 
 ## 📦 Embed on your website
 
-### Iframe (plug & play)
-
 ```html
 <iframe
   src="https://miguelacm.es/embed/number-base"
   width="100%"
-  height="600"
+  height="700"
   style="border:none;border-radius:12px;"
   title="Number Base Converter — miguelacm.es"
   loading="lazy"
@@ -63,11 +56,11 @@ NEXT_PUBLIC_EMBED_URL=https://miguelacm.es/embed/number-base
 
 ```html
 <a href="https://miguelacm.es/tools/number-base" target="_blank" rel="noopener">
-  Conversor de bases numéricas gratis por MACM
+  Number Base Converter — free tool by MACM
 </a>
 ```
 
-> 💡 The link option generates a real backlink that benefits the project. Recommended if your platform supports custom HTML.
+> 💡 The link option generates a real backlink that benefits the project.
 
 ---
 
@@ -75,7 +68,7 @@ NEXT_PUBLIC_EMBED_URL=https://miguelacm.es/embed/number-base
 
 | Technology | Version | Purpose |
 |---|---|---|
-| [Next.js](https://nextjs.org) | 16 | React framework + SSG |
+| [Next.js](https://nextjs.org) | 16 | React framework |
 | [TypeScript](https://www.typescriptlang.org) | 5 | Type safety |
 | [Tailwind CSS](https://tailwindcss.com) | 4 | Styling |
 | [react-icons](https://react-icons.github.io/react-icons/) | 5 | Icons |
